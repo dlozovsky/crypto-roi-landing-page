@@ -1,6 +1,7 @@
 
 import React from 'react';
 import "../styles.css";
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   React.useEffect(() => {
@@ -85,7 +86,15 @@ const Index = () => {
 
       <footer>
         <div className="container">
-          <p>&copy; 2025 CryptoROI Calculator. All rights reserved.</p>
+          <div className="footer-content">
+            <p>&copy; 2025 CryptoROI Calculator. All rights reserved.</p>
+            <div className="footer-links">
+              <Link to="/privacy" className="footer-link">Privacy Policy</Link>
+              <Link to="/terms" className="footer-link">Terms of Use</Link>
+              <Link to="/cookies" className="footer-link">Cookie Policy</Link>
+              <Link to="/contact" className="footer-link">Contact Us</Link>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
