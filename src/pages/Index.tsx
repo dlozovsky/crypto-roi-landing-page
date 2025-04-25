@@ -31,7 +31,7 @@ const Index = () => {
           <div className="hero-content">
             <h1>Crypto ROI Calculator</h1>
             <p className="hero-statement">Calculate your crypto gains with ease</p>
-            <a href="https://yourmainsite.com" className="cta-button">
+            <a href="https://robustcalculators.com/calculators/investment" className="cta-button">
               Try the advanced crypto ROI calculator now →
             </a>
           </div>
